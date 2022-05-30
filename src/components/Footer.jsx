@@ -10,16 +10,16 @@ export default function Footer() {
           </a>
         </div>
         <div className="socials">
-          <a href="#" className="social-link">
-            <i class="fa-brands fa-twitter"></i>
+          <a href="#" className="social-link">  </a>
+            <i className="fa-brands fa-twitter"></i>
             <a href="#" className="social-link"></a>
-            <i class="fa-brands fa-facebook-f"></i>
+            <i className="fa-brands fa-facebook-f"></i>
+        
+          <a href="#" className="social-link">
+            <i className="fa-brands fa-instagram"></i>
           </a>
-          <a href="#" class="social-link">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="#" class="social-link">
-            <i class="fa-brands fa-linkedin"></i>
+          <a href="#" className="social-link">
+            <i className="fa-brands fa-linkedin"></i>
           </a>
         </div>
       </footer>

@@ -15,15 +15,15 @@ export default function Offer(props) {
             </p>
             <div className="features flex">
               <p className="rooms">
-                <i class="fa-solid fa-bed"></i>
+                <i className="fa-solid fa-bed"></i>
                 {props.offer.rooms} bed
               </p>
-              <p class="size">
-                <i class="fa-solid fa-ruler-combined"></i>
+              <p className="size">
+                <i className="fa-solid fa-ruler-combined"></i>
                 {props.offer.area} m2
               </p>
               <p className="area">
-                <i class="fa-solid fa-calendar"></i>
+                <i className="fa-solid fa-calendar"></i>
                 Rok budowy:
                 {props.offer.year}
               </p>

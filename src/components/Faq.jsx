@@ -30,12 +30,12 @@ export default function Faq() {
               <p>Do you offer home loan services?</p>
               {!isFirstActive ? (
                 <i
-                  class="fa-solid fa-angle-down"
+                  className="fa-solid fa-angle-down"
                   style={{ fontSize: "25px" }}
                 ></i>
               ) : (
                 <i
-                  class="fa-solid fa-angle-up"
+                  className="fa-solid fa-angle-up"
                   style={{ fontSize: "25px" }}
                 ></i>
               )}
@@ -53,7 +53,7 @@ export default function Faq() {
             <div className="question flex">
               <p>What are Capital Gains on property purchase?</p>
               <i
-                class="fa-solid fa-angle-down"
+                className="fa-solid fa-angle-down"
                 style={{ fontSize: "25px" }}
               ></i>{" "}
             </div>
@@ -68,7 +68,7 @@ export default function Faq() {
             <div className="question flex">
               <p>What kind of properties are listed on your website?</p>
               <i
-                class="fa-solid fa-angle-down"
+                className="fa-solid fa-angle-down"
                 style={{ fontSize: "25px" }}
               ></i>{" "}
             </div>

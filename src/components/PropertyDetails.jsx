@@ -40,7 +40,7 @@ export default function PropertyDetails() {
                 <div className="title">
                   <h1 className="property-title">
                     {data[`${id}`].city}, {data[`${id}`].distriction},
-                    {data[`${id}`].area} m<span class="power">2</span>,
+                    {data[`${id}`].area} m<span className="power">2</span>,
                     {data[`${id}`].rooms}
                     {data[`${id}`].rooms === 1 ? (
                       <span> pokój </span>
@@ -77,7 +77,7 @@ export default function PropertyDetails() {
 
                   <div className="col-sm-6 offer-parameter">
                     <strong>Powierzchnia: </strong>
-                    {data[`${id}`].area} m<span class="power">2</span>
+                    {data[`${id}`].area} m<span className="power">2</span>
                   </div>
 
                   <div className="col-sm-6 offer-parameter">
@@ -117,8 +117,8 @@ export default function PropertyDetails() {
 
               <div className="col-sm-1 form-offer-box"></div>
 
-              <div class="contact-body col-sm-3">
-                <div class="form-container">
+              <div className="contact-body col-sm-3">
+                <div className="form-container">
                   <TextField
                     id="standard-basic"
                     label="Imię"

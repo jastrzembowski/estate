@@ -44,9 +44,9 @@ export default class Properties extends React.Component {
               <MenuItem value="sprzedaż">Sprzedaż</MenuItem>
             </TextField>
           </Box>
-          <div class="buttons-container">
+          <div className="buttons-container">
             <button
-              class="btn"
+              className="btn"
               onClick={
                 this.state.active
                   ? (e) => this.setState({ active: false })
@@ -55,7 +55,7 @@ export default class Properties extends React.Component {
             >
             {this.state.active ?  "MNIEJ" : "WIĘCEJ"}
             </button>
-            <button class="btn">WYCZYŚĆ</button>
+            <button className="btn">WYCZYŚĆ</button>
           </div>
           {this.state.active && (
             <Box className="additional-filter__container">
@@ -125,7 +125,7 @@ export default class Properties extends React.Component {
                         </p>
                       </div>
                       <div className="residence-cta flex">
-                       <Link to= {`${offer.id}`} offer="offer"> <button class="btn">SZCZEGÓŁY</button></Link>
+                       <Link to= {`${offer.id}`} offer="offer"> <button className="btn">SZCZEGÓŁY</button></Link>
                         <p className="price">{offer.price} ZŁ</p>
                       </div>
                     </div>

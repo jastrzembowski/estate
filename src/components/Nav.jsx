@@ -10,12 +10,12 @@ export default function nav() {
       <div className="flex navbar">
         <nav>
           <ul id="nav-menu" className="nav-menu flex" data-visible="false">
-            <NavLink to="/" className="nav-link" activeClassName="selected">
+            <NavLink to="/" className="nav-link" >
               <li>
                   Główna
               </li>
             </NavLink>
-            <NavLink to="/properties" className="nav-link" activeClassName="selected">
+            <NavLink to="/properties" className="nav-link" >
               <li>
                   Nieruchomości
               </li>

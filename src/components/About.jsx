@@ -10,7 +10,7 @@ export default function About() {
         <span className="position">Founder Serumah</span>
       </p>
       <div className="quote">
-      <i class="fa-solid fa-quote-left" style={{fontSize: "80px", color: "white", opacity: "0.25"}}></i>
+      <i className="fa-solid fa-quote-left" style={{fontSize: "80px", color: "white", opacity: "0.25"}}></i>
         <p>
           Our business is one of close relationships and we are very fortunate
           to be able to share so many positibe real estate experiences with out
