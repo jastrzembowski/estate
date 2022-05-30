@@ -367,7 +367,7 @@ input[type="text"]:focus-within + label {
 
 @media (min-width: 60em) {
   .about {
-    padding: 18rem 4rem 5rem;
+    padding: 29rem 4rem 5rem;
     transform: translateY(-30%);
   }
 

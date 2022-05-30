@@ -45,11 +45,11 @@ export default function EstateSlider() {
     ],
   };
   return (
-    <div className="slider-container">
+    <div className="main-slider-container">
       <div className="slider-box">
         <Slider {...settings}>
-          {data.map((offer) => (
-            <Offer offer={offer} />
+          {data.map((offer, i) => (
+            <Offer key={i + offer.id} offer={offer} />
           ))}
         </Slider>
       </div>

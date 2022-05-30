@@ -43,7 +43,7 @@ export default function App() {
             <div className="form">
               <Box
                 component="form"
-              style={{display: "flex", width: "100%"}}
+              style={{display: "flex", width: "100%", justifyContent: "space-evenly"}}
                 noValidate
                 autoComplete="off"
               >
@@ -54,7 +54,7 @@ export default function App() {
                     endAdornment: (
                       <InputAdornment position="end">
                         <i
-                          class="fa fa-location-arrow"
+                          className="fa fa-location-arrow"
                           size="lg"
                           style={{ marginRight: "14px" }}
                         ></i>
@@ -75,7 +75,7 @@ export default function App() {
                     endAdornment: (
                       <InputAdornment position="end">
                         <i
-                          class="fa fa-house-user"
+                          className="fa fa-house-user"
                           size="lg"
                           style={{ marginRight: "14px" }}
                         ></i>
@@ -96,7 +96,7 @@ export default function App() {
                     endAdornment: (
                       <InputAdornment position="end">
                         <i
-                          class="fa fa-coins"
+                          className="fa fa-coins"
                           size="lg"
                           style={{ marginRight: "14px" }}
                         ></i>
